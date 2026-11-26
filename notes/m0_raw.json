@@ -1,0 +1,100 @@
+{
+ "signals": {
+  "ok": true,
+  "res": {
+   "counts": {
+    "item": 252,
+    "fluid": 19,
+    "virtual": 154,
+    "recipe": 217,
+    "entity": 571,
+    "space-location": 2,
+    "quality": 2,
+    "asteroid-chunk": 1
+   },
+   "hidden": {
+    "item": 38,
+    "fluid": 1,
+    "virtual": 1,
+    "recipe": 5,
+    "entity": 418,
+    "space-location": 1,
+    "quality": 2,
+    "asteroid-chunk": 1
+   },
+   "qualities": [
+    "normal",
+    "quality-unknown"
+   ],
+   "energy_W": {
+    "arithmetic-combinator": 1000.0000000000001,
+    "decider-combinator": 1000.0000000000001,
+    "selector-combinator": 1000.0000000000001,
+    "constant-combinator": 0,
+    "small-lamp": 5000,
+    "display-panel": 0
+   },
+   "version": "2.1.24"
+  }
+ },
+ "setup": {
+  "ok": true,
+  "res": {
+   "P1_set": "ok",
+   "P2_set": "ok",
+   "P3_set": "ok"
+  }
+ },
+ "capacity_setup": {
+  "ok": true,
+  "res": {
+   "slots_set": 1000,
+   "failed": 214,
+   "fails": [
+    "entity:assembling-machine-1-explosion Index out of bounds: 1001 > 1000 (max)",
+    "entity:assembling-machine-2-explosion Index out of bounds: 1001 > 1000 (max)",
+    "entity:assembling-machine-3-explosion Index out of bounds: 1001 > 1000 (max)",
+    "entity:oil-refinery-explosion Index out of bounds: 1001 > 1000 (max)",
+    "entity:chemical-plant-explosion Index out of bounds: 1001 > 1000 (max)"
+   ]
+  }
+ },
+ "probes": {
+  "ok": true,
+  "res": {
+   "P1": {
+    "signal-Z": 4
+   },
+   "P2": {
+    "signal-A": 6,
+    "signal-B": -4,
+    "signal-C": 2
+   },
+   "P3": {
+    "signal-A": 30,
+    "signal-B": -10,
+    "signal-C": 20
+   },
+   "P5": {
+    "signal-Z": 14
+   },
+   "P4": {
+    "add_overflow": -2147483648,
+    "mul_overflow": 605032704,
+    "div_neg": -3,
+    "mod_neg": -1,
+    "shr_neg": -4,
+    "shl_32": 1,
+    "shl_31": -2147483648,
+    "shr_33": 512,
+    "div_zero": 0,
+    "pow_sq_big": -1794967296,
+    "pow_neg": 0
+   }
+  }
+ },
+ "capacity": {
+  "ok": false,
+  "err": "[string \"...\"]:33: attempt to index local 'p' (a nil value)"
+ }
+}

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+harness/server/data*/
+harness/server/config*.ini
+harness/server/server*.log
+train/data/raw/
+train/data/batches.json
+train/out/*/model.pt
+train/out/*/int_params.pkl
+.pytest_cache/
